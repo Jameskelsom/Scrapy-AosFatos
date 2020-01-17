@@ -1,6 +1,6 @@
  # -*- coding: utf-8 -*-
 import scrapy
-# scrapy runspider aos_fatos.py -s HTTPCACHE_ENABLED=1 -s CLOSESPIDER_ITEMCOUNT=500 -o dados.csv 
+# scrapy runspider aos_fatos.py -s HTTPCACHE_ENABLED=1 -s CLOSESPIDER_ITEMCOUNT=500 -o dados.csv //rodar spyder
 # scrapy shell 'https://aosfatos.org/'
 # response.css('title::text').getall()
 # response.css('a.card::attr(href)').getall()
